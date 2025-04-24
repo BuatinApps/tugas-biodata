@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Profil Biodata</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: Arial, sans-serif; line-height: 1.6; }
+
+    nav {
+      background-color: #f0f0f0;
+      padding: 1em 2em;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #ccc;
+    }
+
+    nav .brand { font-weight: bold; }
+    nav .menu a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #333;
+    }
+
+    .container { padding: 30px; }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+
+    .header-text {
+      flex: 1;
+    }
+
+    .header-text h1 { margin-bottom: 10px; }
+    .header-text p { margin-bottom: 10px; }
+
+    .header-image img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 8px;
+    }
+
+    .about-me {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .biodata-boxes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 40px;
+    }
+
+    .box {
+      flex: 1 1 30%;
+      min-width: 200px;
+      border: 1px solid #ccc;
+      padding: 15px;
+      border-radius: 5px;
+      background: #f9f9f9;
+    }
+
+    .portfolio {
+      text-align: center;
+    }
+
+    .portfolio-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .project {
+      width: 300px;
+      background-color: #f2f2f2;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 10px;
+    }
+
+    .project img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+      margin-bottom: 10px;
+    }
+
+    .project h4 { margin: 5px 0; }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+  <div class="brand">Brand</div>
+  <div class="menu">
+    <a href="#">Header</a>
+    <a href="#">Biodata</a>
+    <a href="#">Portofolio</a>
+  </div>
+</nav>
+
+<!-- Content -->
+<div class="container">
+
+  <!-- Section 1: Header -->
+  <div class="header">
+    <div class="header-text">
+      <h1>Selamat Datang di Website Saya</h1>
+      <p>Ini adalah contoh header dengan dua kolom. Kolom kiri berisi teks seperti ini.</p>
+      <a href="#">Pelajari Lebih Lanjut</a>
+    </div>
+    <div class="header-image">
+      <img src="https://via.placeholder.com/600x400" alt="Gambar Profil">
+    </div>
+  </div>
+
+  <!-- Section 2: About Me -->
+  <div class="about-me">
+    <h2>About Me</h2>
+    <p>A brief introduction about myself</p>
+  </div>
+
+  <div class="biodata-boxes">
+    <div class="box">Full Name</div>
+    <div class="box">Education</div>
+    <div class="box">Pekerjaan</div>
+    <div class="box">Contact</div>
+    <div class="box">Hobi</div>
+    <div class="box">Alamat</div>
+  </div>
+
+  <!-- Section 3: Portofolio -->
+  <div class="portfolio">
+    <h2>Portofolio</h2>
+    <div class="portfolio-grid">
+      <div class="project">
+        <img src="https://via.placeholder.com/350x200" alt="Proyek 1">
+        <h4>Proyek 1</h4>
+        <p>Deskripsi proyek 1</p>
+      </div>
+      <div class="project">
+        <img src="https://via.placeholder.com/350x200" alt="Proyek 2">
+        <h4>Proyek 2</h4>
+        <p>Deskripsi proyek 2</p>
+      </div>
+      <div class="project">
+        <img src="https://via.placeholder.com/350x200" alt="Proyek 3">
+        <h4>Proyek 3</h4>
+        <p>Deskripsi proyek 3</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
